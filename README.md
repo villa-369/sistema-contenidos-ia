@@ -122,3 +122,7 @@ Después:
 3. Abre Claude Code en la carpeta del proyecto y escribe `/marca`.
 
 > **Tu copia, en privado:** al usarlo, `fuentes/` y `marca/` se llenan con datos internos de tu negocio (precios, clientes, decisiones). Guarda tu copia en un repositorio **privado**.
+
+## Licencia
+
+[MIT](LICENSE): puedes usarlo, copiarlo y modificarlo libremente, manteniendo el aviso de licencia. open-carrusel, HyperFrames y marketingskills tienen sus propias licencias.
