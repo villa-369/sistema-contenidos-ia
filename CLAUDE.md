@@ -24,6 +24,7 @@ Cada paso termina con una aprobación del dueño, y el siguiente no empieza sin 
 | Paso | Comando | Qué hace | Aprobación que pide |
 |---|---|---|---|
 | Inicio | `/marca [cuestionario]` | Marca nueva: entrevista al dueño con `herramientas/plantillas/cuestionario-marca.md` (13 bloques), guarda sus respuestas en `fuentes/cuestionario/` y arma `marca/`, `.agents/product-marketing.md` y `estrategia/pilares.md`. Solo una vez por marca, o `actualizar <bloque>`. | Lo recogido y luego la base de la marca |
+| Investigación | `/competencia` y `/referentes` | `/competencia`: descubre a la competencia por tipo (web y Biblioteca de Anuncios de Meta, sin iniciar sesión) y propone cambios de contenido en `estrategia/competencia.md`. `/referentes`: analiza sus anuncios y publicaciones y deja un banco de ideas adaptadas en `estrategia/referentes/`. Nunca copia ni nombra competidores. Al empezar y cada uno o dos meses. | Las propuestas y las ideas que pasan al calendario |
 | 0 | `/estado` | Foto del sistema: piezas por estado, lo programado en Zernio, salud de cuentas, discrepancias. Solo lee. | — |
 | 1 | `/calendario [inicio]` | Propone 2 semanas en `estrategia/calendario/` (pilares, nichos, objeciones, sin chocar con lo programado). | El calendario |
 | 2 | `/pieza <fecha> <tema> <formato> [destinos]` | Crea `contenidos/<fecha>_<tema>/` con el guion CTEIT, `copy.md` (un texto por destino) y `meta.json`. | El guion y los textos |
@@ -63,7 +64,7 @@ fuentes/                   documentos originales del dueño y respuestas del cue
 marca/                     brand.json, voz.md, voz_personal.md, nichos.md, objeciones.md, decisiones.md, zernio.json, logo e icono
   casos/                   PLANTILLA.md y casos reales (subcarpeta privado/ fuera de git)
   plantillas/              lamina-4x5.css (diseño base de las láminas)
-estrategia/                pilares.md y calendario/
+estrategia/                pilares.md, calendario/, competencia.md y referentes/
 contenidos/AAAA-MM-DD_tema/
   copy.md                  una sección por destino
   slides/                  PNG (y PDF para LinkedIn si hace falta)
@@ -76,7 +77,7 @@ herramientas/
   scripts/                 scripts de apoyo
 .agents/product-marketing.md   contexto de producto que leen las skills de marketingskills
 .claude/skills/            skills de marketingskills (se instalan, ver README)
-.claude/commands/          /marca /estado /calendario /pieza /laminas /reel /programar
+.claude/commands/          /marca /competencia /referentes /estado /calendario /pieza /laminas /reel /programar
 ```
 
 ## Herramientas

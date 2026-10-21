@@ -11,6 +11,7 @@ Sirve para cualquier marca: el primer paso es una entrevista que recoge todo lo 
 | Paso | Qué hace por ti |
 |---|---|
 | 🧭 **Conoce tu marca** | Te entrevista con un cuestionario sencillo (tu negocio, tu cliente ideal, sus dudas, tu forma de hablar y tu identidad visual) y con eso arma la base de la marca. |
+| 🔎 **Investiga** | Encuentra a tu competencia y analiza qué publica y qué anuncia, para sacar ideas sin copiar. |
 | 📅 **Planifica** | Propone un calendario de 2 semanas: qué publicar, qué día, para qué público y qué duda del cliente responde cada pieza. |
 | ✍️ **Escribe** | Redacta el guion y un texto distinto para cada red (Instagram, Facebook, LinkedIn de empresa y perfil personal), con la voz de tu marca. |
 | 🎨 **Diseña** | Crea carruseles e imágenes con los colores, fuentes y logo de la marca, y Reels en video vertical. |
@@ -32,6 +33,8 @@ Todo funciona con **comandos** que escribes en Claude Code. Cada uno termina pid
 | Comando | Para qué sirve |
 |---|---|
 | `/marca` | **Primer paso, una sola vez por marca.** Te hace las preguntas del [cuestionario](herramientas/plantillas/cuestionario-marca.md) bloque por bloque y arma la identidad, la voz, el cliente ideal y las objeciones. |
+| `/competencia` | Busca por ti quiénes son tu competencia (agencias, herramientas, software de tu sector, cursos) en internet y en la Biblioteca de Anuncios de Meta, y te propone qué cambiar en tu contenido. |
+| `/referentes` | Analiza los anuncios y publicaciones de esa competencia (o de cuentas que admiras) y te deja un banco de ideas adaptadas a tu marca, sin copiar. |
 | `/estado` | Una foto de cómo va todo. Solo mira, no cambia nada. |
 | `/calendario` | Propone las publicaciones de las próximas 2 semanas. |
 | `/pieza` | Crea una publicación: guion y textos para cada red. |
@@ -67,7 +70,7 @@ Datos básicos · El negocio y la oferta · Historia y propósito · **Cliente i
 
 ### Skills (habilidades) que incluye
 
-- **Del proyecto (los 7 comandos):** marca, estado, calendario, pieza, láminas, reel y programar.
+- **Del proyecto (los 9 comandos):** marca, competencia, referentes, estado, calendario, pieza, láminas, reel y programar.
 - **De marketing (marketingskills):** unas 50 habilidades listas para usar, como redacción publicitaria (*copywriting*), estrategia de contenido, redes sociales, psicología de ventas, ideas de marketing, anuncios, correos, lanzamientos e investigación de clientes.
 - **De video (HyperFrames):** composición, animación y renderizado de Reels.
 

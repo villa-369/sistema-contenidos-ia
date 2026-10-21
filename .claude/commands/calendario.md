@@ -9,7 +9,7 @@ Propone un calendario de **2 semanas** que empieza el día indicado (o el próxi
 
 ## Antes de proponer
 
-1. Lee `marca/decisiones.md`, `marca/voz.md`, `marca/nichos.md`, `marca/objeciones.md`, `estrategia/pilares.md` y el último archivo de `estrategia/calendario/`.
+1. Lee `marca/decisiones.md`, `marca/voz.md`, `marca/nichos.md`, `marca/objeciones.md`, `estrategia/pilares.md` y el último archivo de `estrategia/calendario/`. Si existen, lee también `estrategia/competencia.md` (propuestas aprobadas) y el último `estrategia/referentes/` (banco de ideas marcadas por el dueño).
 2. Revisa lo que ya existe, para no repetir temas ni chocar fechas:
    - `node herramientas/scripts/estado-piezas.mjs`;
    - en Zernio, `posts_list_posts` con `status: "scheduled"`, filtrado por las cuentas de `marca/zernio.json`.
