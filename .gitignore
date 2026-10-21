@@ -1,0 +1,31 @@
+# Claves y configuración local (nunca a git)
+.env
+.env.*
+!.env.example
+**/.env.local
+
+# Dependencias y cachés
+node_modules/
+.next/
+.cache/
+*.log
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporales de render
+herramientas/hyperframes/renders/
+herramientas/hyperframes/.hyperframes/
+*.tmp
+
+# Material privado de casos de clientes (autorizaciones, capturas)
+marca/casos/**/privado/
+
+# Renders y artefactos de los proyectos de Reels (el MP4 final se copia a contenidos/)
+herramientas/hyperframes/reels/*/renders/
+herramientas/hyperframes/reels/*/.hyperframes/
+herramientas/hyperframes/**/.thumbnails/

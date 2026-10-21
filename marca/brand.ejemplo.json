@@ -1,0 +1,39 @@
+{
+  "_nota": "Ejemplo de la forma que debe tener marca/brand.json. /marca lo genera con los datos reales de la marca (bloques 1 y 10 del cuestionario). Lo leen sync-brand-open-carrusel.mjs y armar-laminas.mjs.",
+  "marca": {
+    "nombre": "Tu Marca",
+    "logotipo_texto": {
+      "partes": [
+        { "texto": "Tu", "peso": 800, "color": "#7dd3fc" },
+        { "texto": "Marca", "peso": 700, "color": "#f1f5f9" }
+      ],
+      "fuente": "Poppins"
+    },
+    "eslogan": "Tu eslogan aquí.",
+    "sitio": "https://ejemplo.com",
+    "contacto": { "whatsapp": "+00 000 000 0000", "enlace": "https://wa.me/000000000000" }
+  },
+  "logos": {
+    "logo": { "archivo": "marca/logo.png" },
+    "icono": { "archivo": "marca/icono.png" }
+  },
+  "colores": {
+    "primario": { "hex": "#1d4ed8", "nombre": "Azul" },
+    "secundario": { "hex": "#2563eb", "nombre": "Azul claro" },
+    "acento": { "hex": "#14b8a6", "nombre": "Turquesa" },
+    "fondo": { "hex": "#0f172a", "nombre": "Azul noche" },
+    "texto": { "hex": "#f1f5f9", "nombre": "Blanco" },
+    "superficie_hex": "#1e293b"
+  },
+  "tipografias": {
+    "titulos": { "familia": "Poppins", "pesos": [700, 800] },
+    "cuerpo": { "familia": "Inter", "pesos": [400, 600] }
+  },
+  "palabras_clave_estilo": ["limpio", "alto contraste", "una idea por lámina"],
+  "formatos": {
+    "carrusel": { "px": "1080x1350" },
+    "reel": { "px": "1080x1920", "duracion_s": "15-30" },
+    "imagen_unica": { "px": "1080x1350" }
+  },
+  "no_hacer": []
+}

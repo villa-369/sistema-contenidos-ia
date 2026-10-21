@@ -1,0 +1,31 @@
+/* Plantilla de lámina 4:5 (1080x1350). Paleta neutra de ejemplo: /marca la reemplaza por los colores y tipografías de la marca (marca/brand.json). */
+
+.s{position:relative;width:1080px;height:1350px;overflow:hidden;background:#0f172a;color:#f1f5f9;font-family:Inter,sans-serif;}
+.s:before{content:"";position:absolute;width:900px;height:900px;left:-300px;top:-320px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.42),rgba(37,99,235,0) 65%);}
+.s:after{content:"";position:absolute;width:950px;height:950px;right:-380px;bottom:-300px;border-radius:50%;background:radial-gradient(circle,rgba(20,184,166,.30),rgba(20,184,166,0) 65%);}
+.glow{position:absolute;width:800px;height:800px;right:-200px;top:260px;border-radius:50%;background:radial-gradient(circle,rgba(29,78,216,.55),rgba(29,78,216,0) 65%);}
+.in{position:absolute;inset:0;padding:96px 96px 210px;display:flex;flex-direction:column;justify-content:center;z-index:2;}
+.k{font-family:Poppins,sans-serif;font-weight:700;font-size:28px;letter-spacing:.16em;text-transform:uppercase;background:linear-gradient(100deg,#7dd3fc,#2563eb 35%,#1d4ed8 65%,#14b8a6);-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:40px;}
+.t{font-family:Poppins,sans-serif;font-weight:800;font-size:84px;line-height:1.08;letter-spacing:-.01em;}
+.t2{font-family:Poppins,sans-serif;font-weight:800;font-size:68px;line-height:1.12;}
+.g{background:linear-gradient(100deg,#7dd3fc,#2563eb 40%,#14b8a6);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.p{font-size:38px;line-height:1.45;color:#f1f5f9;opacity:.88;margin-top:44px;}
+.card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:34px 40px;}
+.li{display:flex;align-items:flex-start;gap:26px;font-size:40px;line-height:1.35;margin-top:30px;}
+.dot{flex:0 0 44px;height:44px;border-radius:50%;margin-top:4px;}
+.foot{position:absolute;left:96px;right:96px;bottom:70px;display:flex;align-items:center;justify-content:space-between;z-index:3;}
+.brand{display:flex;align-items:center;gap:18px;font-family:Poppins,sans-serif;font-weight:700;font-size:32px;}
+.brand img{width:56px;height:56px;border-radius:14px;}
+.brand b{color:#7dd3fc;font-weight:800;}
+.pg{font-family:Poppins,sans-serif;font-weight:600;font-size:28px;opacity:.7;}
+.tag{display:inline-block;font-family:Poppins,sans-serif;font-weight:600;font-size:26px;letter-spacing:.06em;text-transform:uppercase;color:#0f172a;background:#f1f5f9;border-radius:999px;padding:8px 22px;}
+
+.cta{display:inline-flex;white-space:nowrap;align-self:flex-start;font-family:Poppins,sans-serif;font-weight:700;font-size:38px;padding:26px 44px;border-radius:999px;background:linear-gradient(100deg,#2563eb,#1d4ed8);}
+.chat{background:#ece7e1;border-radius:28px;overflow:hidden;border:1px solid rgba(255,255,255,.12);}
+.chat-h{background:#1e293b;display:flex;align-items:center;gap:22px;padding:24px 30px;}
+.av{width:64px;height:64px;border-radius:50%;background:#1d4ed8;display:flex;align-items:center;justify-content:center;font-family:Poppins,sans-serif;font-weight:700;font-size:30px;}
+.chat-b{padding:30px;display:flex;flex-direction:column;gap:18px;}
+.msg{max-width:82%;background:#fff;color:#1e293b;border-radius:22px;padding:22px 28px;font-size:34px;line-height:1.35;}
+.msg small{display:block;text-align:right;font-size:22px;color:#6b6878;margin-top:8px;}
+.num{font-family:Poppins,sans-serif;font-weight:800;font-size:30px;letter-spacing:.12em;text-transform:uppercase;color:#14b8a6;margin-bottom:22px;}
+.ej{font-size:26px;opacity:.7;margin-top:22px;}

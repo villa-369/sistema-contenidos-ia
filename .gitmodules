@@ -1,0 +1,3 @@
+[submodule "herramientas/open-carrusel"]
+	path = herramientas/open-carrusel
+	url = https://github.com/Hainrixz/open-carrusel.git
